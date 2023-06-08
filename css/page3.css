@@ -1,0 +1,100 @@
+
+.p3-overlay{
+    width: 100%;
+    height: 200px;
+    background-color: #18c8d1;
+}
+
+.p3-imgdiv{
+    width: 100%;
+    text-align: center;
+}
+
+.p3-image-in-imgbar{
+
+}
+
+/* to be debug code abocve it */
+
+.p3-contentmargin{
+    margin-top: 69px;
+}
+
+.p3-txtpublish{
+    font-weight: 700;
+    color: black;
+    font-size: 11px;
+}
+
+.p3-headlinetext{
+    font-weight: 700;
+    margin-bottom: 26px;
+    margin-top: 26px;
+}
+
+.p3-views{
+    color: #d5d5d5;
+    font-size: 11px;
+}
+
+.p3-hr{
+    color: #d5d5d5;
+}
+
+.p3-paracontent{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+
+.p3-content{
+    margin-top: 40px;
+
+}
+
+.p3-topic-content{
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.p3-anchor{
+    text-decoration: none;
+    color: rgb(0, 23, 230);
+}
+
+.p3-bold{
+    font-weight: 600;
+}
+
+.p3-profileimg{
+    border-radius: 50%;
+}
+
+.p3-feedback-user{
+    color: #18c8d1;
+    font-weight: 700;
+}
+
+.p3-sidepart{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media  (min-width: 992px) {
+    .p3-image-in-imgbar{
+        width: 100%;
+        margin-top: -150px;
+    }
+ 
+}
+
+@media (max-width: 992px) {
+    .p3-image-in-imgbar{
+        width: 90%;
+        margin-top: -100px;
+        }
+}
+
